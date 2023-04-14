@@ -20,8 +20,39 @@ ul{
 
 .header-li{
     padding-top:10%;
+    padding-bottom: 10%;
 }
 
 .space-between{
     justify-content: space-between;
 }
+
+.standard{
+        width:80%;
+    margin:auto;
+}
+
+.jumbotron{
+    background-color:orange;
+
+}
+
+h1{
+    font-size: 6rem;
+}
+
+.immagine{
+    height:400px;
+    background-color: brown;
+    width:1200px;
+    position: relative;
+    width:70%;
+    top:100px;
+}
+
+.column{
+    width:30%;
+    top:100px;
+    position: relative;
+}
+
