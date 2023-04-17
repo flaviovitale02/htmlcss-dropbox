@@ -23,6 +23,12 @@ ul{
     padding-bottom: 10%;
 }
 
+.header-li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -86,7 +92,7 @@ h2{
 }
 
 .padding{
-    padding:3%;
+    padding: 3%;
     padding-left: 8%;
 }
 
@@ -97,6 +103,7 @@ h2{
 .margin-top-p{
     margin-top:3%;
 }
+
 
 .horizontal-card{
     border: solid 1px grey;
@@ -136,4 +143,36 @@ h2{
 
 .wrap{
     flex-wrap: wrap;
+}
+
+.logo-container{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.square{
+    background-color: rgb(114, 200, 114);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.square img{
+    width:60%;
+    filter:invert(1);
+}
+
+.hr-rotto{
+    margin-top: 3%;
+    margin-left:8%;
+    margin-right: 80%;
+    opacity: 70%;
+}
+
+.designit{
+    font-size: 3rem;
+    padding-left: 8%;
+    margin-top: 10%;
 }
