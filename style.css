@@ -34,7 +34,7 @@ ul{
 }
 
 .standard{
-        width:80%;
+    width:80%;
     margin:auto;
 }
 
@@ -147,7 +147,7 @@ h2{
 
 .logo-container{
     width: calc(100vw / 3);
-    height: calc(100vw / 3);
+    
 }
 
 .square{
@@ -157,6 +157,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
 }
 
 div.square img{
@@ -175,4 +176,54 @@ div.square img{
     font-size: 3rem;
     padding-left: 8%;
     margin-top: 10%;
+}
+
+.bg-azzurro{
+    background-color: #b4d0e7;
+}
+
+.space-around{
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.brown{
+    color: #60072a;
+}
+
+.pd-domande{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+    
+}
+
+.padding-ft{
+    padding-top: 15%;
+}
+
+.big{
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+
+.width-ft{
+    width: calc(100 / 5 - 5%);
+}
+
+.ft-container{
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+
+footer{
+    margin-top: 20%;
 }
