@@ -128,3 +128,12 @@ h2{
     height:500px;
     background-color: brown;
 }
+
+.cards{
+    width: calc(100% / 3 - 3%);
+    margin-right: auto;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
