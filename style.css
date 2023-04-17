@@ -50,9 +50,50 @@ h1{
     top:100px;
 }
 
-.column{
+.jumb-col{
     width:30%;
     top:100px;
     position: relative;
 }
 
+
+h2{
+    margin-top: 17%;
+    font-size: 3rem;
+}
+
+
+.column-container{
+    width:22%;
+    border: 2px solid lightblue;
+}
+
+.text-center{
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.column-l-container{
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+}
+
+.padding{
+    padding:3%;
+    padding-left: 8%;
+}
+
+.margin-top-c{
+    margin-top: 8%;
+}
+
+.margin-top-p{
+    margin-top:3%;
+}
