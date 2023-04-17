@@ -78,7 +78,7 @@ h2{
     flex-direction: column;
 }
 
-h3{
+.card-title{
     font-size: 1.5rem;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -96,4 +96,29 @@ h3{
 
 .margin-top-p{
     margin-top:3%;
+}
+
+.horizontal-card{
+    border: solid 1px grey;
+    margin-top: 5%;
+}
+
+.class-60{
+    width:60%;
+}
+
+.class-40{
+    width:40%;
+    margin-left: 4%;
+}
+
+.enterprise{
+    font-size: 1.5rem;
+    padding-left: 8%;
+}
+
+.team{
+    border-bottom: solid 1px grey;
+    padding: 1%;
+    text-align: center;
 }
