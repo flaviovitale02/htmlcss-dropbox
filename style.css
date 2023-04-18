@@ -192,7 +192,6 @@ div.cards img{
 }
 
 .square{
-    background-color: rgb(114, 200, 114);
     width: 50%;
     height: 50%;
     display: flex;
@@ -201,6 +200,37 @@ div.cards img{
     aspect-ratio: 1 / 1;
 }
 
+.sq-green{
+    background-color: #a2d39b;
+}
+
+.sq-bordeaux{
+    background-color: #60072a;
+}
+
+.sq-azzurro{
+    background-color: #0093ce;
+}
+
+.sq-red{
+    background-color: #ff1c1c;
+}
+
+.sq-dark-red{
+    background-color: #d5001f;
+}
+
+.sq-celeste{
+    background-color: #b4d0e7;
+}
+
+.sq-blue{
+    background-color: #0d2481;
+}
+
+.sq-yellow{
+    background-color: #ffd830;
+}
 
 
 div.square img{
