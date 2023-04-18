@@ -176,6 +176,10 @@ div.partner-img img{
     width: 100%;
 }
 
+div.cards img{
+    width: 100%;
+}
+
 .cards{
     width: calc(100% / 3 - 3%);
     margin-right: auto;
