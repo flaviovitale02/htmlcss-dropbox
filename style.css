@@ -10,7 +10,6 @@
 
 header nav{
     height: 100px;
-    background-color: blueviolet;
 }
 
 ul{
@@ -18,15 +17,20 @@ ul{
     justify-content: space-between;
 }
 
-.header-li{
-    padding-top:10%;
-    padding-bottom: 10%;
+.down-arrow{
+    font-size: 2rem;
 }
+
+.space-between li{
+    padding-inline: 10px;
+    margin-top: 40px;
+}
+
+
 
 .header-li a{
     text-decoration: none;
-    color: white;
-    
+    color: black;
 }
 
 .space-between{
@@ -43,17 +47,31 @@ ul{
 
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+.align-item{
+    justify-content: center;
+}
+
 h1{
     font-size: 6rem;
 }
 
 .immagine{
     height:400px;
-    background-color: brown;
-    width:1200px;
+
     position: relative;
     width:70%;
     top:100px;
+}
+
+.immagine img{
+    width: 80%;
+    position: relative;
+    top:-120px;
+
 }
 
 .jumb-col{
@@ -71,13 +89,18 @@ h2{
 
 .column-container{
     width:22%;
-    border: 2px solid lightblue;
+    border: 2px solid rgb(0, 0, 0);
+    height: 800px;
 }
 
 .text-center{
     margin: auto;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.padding-left{
+    margin-left:5%;
 }
 
 .column-l-container{
@@ -89,6 +112,16 @@ h2{
     padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 8%;
+}
+
+button{
+    background-color: #0061ff;
+    height: 30px;
+    margin-left: 45px;
+    color: white;
+    
+    
+    
 }
 
 .padding{
