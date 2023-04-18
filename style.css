@@ -18,7 +18,7 @@ ul{
 }
 
 .down-arrow{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .space-between li{
@@ -51,9 +51,6 @@ ul{
     flex-direction: column;
 }
 
-.align-item{
-    justify-content: center;
-}
 
 h1{
     font-size: 6rem;
@@ -203,6 +200,8 @@ div.cards img{
     align-items: center;
     aspect-ratio: 1 / 1;
 }
+
+
 
 div.square img{
     width:60%;
