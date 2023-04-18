@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
 .flex{
     display: flex;
 }
@@ -279,6 +282,15 @@ div.square img{
     
 }
 
+.black-text{
+    color: #806f66;
+}
+
+.bg-white{
+    background-color: white;
+    border: none;
+}
+
 .padding-ft{
     padding-top: 15%;
 }
@@ -299,4 +311,11 @@ div.square img{
 
 footer{
     margin-top: 20%;
+}
+
+footer div.standard p{
+    color: #989996;
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
 }
