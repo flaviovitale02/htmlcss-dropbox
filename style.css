@@ -114,12 +114,18 @@ h2{
     padding-left: 8%;
 }
 
+.check{
+    color:#0061ff;
+}
+
+
 button{
     background-color: #0061ff;
     height: 30px;
     margin-left: 45px;
     color: white;
-    
+    padding-right: 3%;
+    padding-left: 3%;
     
     
 }
